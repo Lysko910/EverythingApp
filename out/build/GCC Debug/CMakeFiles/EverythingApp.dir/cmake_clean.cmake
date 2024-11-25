@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EverythingApp.dir/main.cpp.o"
   "CMakeFiles/EverythingApp.dir/main.cpp.o.d"
+  "CMakeFiles/EverythingApp.dir/src/net_tools.cpp.o"
+  "CMakeFiles/EverythingApp.dir/src/net_tools.cpp.o.d"
   "EverythingApp"
   "EverythingApp.pdb"
 )

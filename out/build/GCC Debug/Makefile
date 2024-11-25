@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingApp.dir/build.make CMakeFiles/EverythingApp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/net_tools.o: src/net_tools.cpp.o
+.PHONY : src/net_tools.o
+
+# target to build an object file
+src/net_tools.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingApp.dir/build.make CMakeFiles/EverythingApp.dir/src/net_tools.cpp.o
+.PHONY : src/net_tools.cpp.o
+
+src/net_tools.i: src/net_tools.cpp.i
+.PHONY : src/net_tools.i
+
+# target to preprocess a source file
+src/net_tools.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingApp.dir/build.make CMakeFiles/EverythingApp.dir/src/net_tools.cpp.i
+.PHONY : src/net_tools.cpp.i
+
+src/net_tools.s: src/net_tools.cpp.s
+.PHONY : src/net_tools.s
+
+# target to generate assembly for a file
+src/net_tools.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingApp.dir/build.make CMakeFiles/EverythingApp.dir/src/net_tools.cpp.s
+.PHONY : src/net_tools.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/net_tools.o"
+	@echo "... src/net_tools.i"
+	@echo "... src/net_tools.s"
 .PHONY : help
 
 

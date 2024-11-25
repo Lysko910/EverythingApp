@@ -81,12 +81,12 @@ clean: CMakeFiles/EverythingApp.dir/clean
 CMakeFiles/EverythingApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingApp.dir/build.make CMakeFiles/EverythingApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingApp.dir/build.make CMakeFiles/EverythingApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/michal/Desktop/Dev/projects/EverythingApp/out/build/GCC Debug/CMakeFiles" --progress-num=1,2 "Built target EverythingApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/michal/Desktop/Dev/projects/EverythingApp/out/build/GCC Debug/CMakeFiles" --progress-num=1,2,3 "Built target EverythingApp"
 .PHONY : CMakeFiles/EverythingApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/EverythingApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/michal/Desktop/Dev/projects/EverythingApp/out/build/GCC Debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/michal/Desktop/Dev/projects/EverythingApp/out/build/GCC Debug/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/EverythingApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/michal/Desktop/Dev/projects/EverythingApp/out/build/GCC Debug/CMakeFiles" 0
 .PHONY : CMakeFiles/EverythingApp.dir/rule
